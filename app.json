@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "messanger",
+    "slug": "messanger",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra":{
+      "EXPO_STREAM_API":"ka5s2h8xdbd3",
+      "DATABASE_URL":"https://pfwxzuvyhfnzumjxpmkv.supabase.co",
+      "DATABASE_ANON_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBmd3h6dXZ5aGZuenVtanhwbWt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzgzMjQ4NjcsImV4cCI6MjA1MzkwMDg2N30.m4C8AsrKjMBAb22QM5FRdbDgYxFN9rHrEhFv5K17VmI"
+    }
+  }
+}
